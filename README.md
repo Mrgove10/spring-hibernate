@@ -6,3 +6,4 @@ The documentation (TP, slides, templates) are located in the [resourcesEtudiant/
 
 To start the application : `gradlew appRun`
 
+orignal repo : https://bitbucket.org/avenelt/spring_hibernate_tp/src

@@ -1,16 +1,25 @@
 package org.epsi.b3.simplewebapp.users;
 
 import java.util.Objects;
-import java.util.zip.DataFormatException;
+import javax.persistence.Basic;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 /**
  * A business object the represents a User account.
  */
+@Entity
+@Table(name = "Users")
 public class UserAccount {
 
+    @Id
     private Integer idUser;
+    @Basic(optional = false)
     private String userName;
+    @Basic(optional = false)
     private Gender gender;
+    @Basic(optional = false)
     private String password;
 
     public UserAccount() {
@@ -59,7 +68,7 @@ public class UserAccount {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         UserAccount that = (UserAccount) o;
-        return Objects.deepEquals(idUser,that.idUser);
+        return Objects.deepEquals(idUser, that.idUser);
     }
 
     @Override

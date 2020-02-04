@@ -2,14 +2,25 @@ package org.epsi.b3.simplewebapp.products;
 
 import java.util.Objects;
 import java.util.zip.DataFormatException;
+import javax.persistence.Basic;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 /**
  * An entity to model the view of a product.
  */
+@Entity
+@Table(name = "Products")
 public class Product {
 
+    @Id
+    private Integer idProduct;
+    @Basic(optional = false)
     private String code;
+    @Basic(optional = false)
     private String name;
+    @Basic(optional = false)
     private Float price;
 
     public Product() {
@@ -55,6 +66,14 @@ public class Product {
         if (code == null || !code.matches(regex)) {
             throw new DataFormatException("Invalid product code : " + code);
         }
+    }
+
+    public Integer getIdProduct() {
+        return idProduct;
+    }
+
+    public void setIdProduct(Integer idProduct) {
+        this.idProduct = idProduct;
     }
 
     @Override
