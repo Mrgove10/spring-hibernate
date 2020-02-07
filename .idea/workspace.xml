@@ -15,17 +15,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f1c02f3-da2b-44af-b0f5-84d9bc678d3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/epsi/b3/simplewebapp/persistence/SessionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/epsi/b3/simplewebapp/persistence/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/epsi/b3/simplewebapp/persistence/SessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/epsi/b3/simplewebapp/persistence/SessionFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +92,8 @@
       <workItem from="1580800574202" duration="741000" />
       <workItem from="1580801899882" duration="9553000" />
       <workItem from="1580905333577" duration="273000" />
-      <workItem from="1581059628842" duration="2696000" />
+      <workItem from="1581059628842" duration="2810000" />
+      <workItem from="1581071083317" duration="187000" />
     </task>
     <servers />
   </component>
@@ -129,18 +121,18 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="249" y="0" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1580800741728" />
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580809716894">
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581070970876">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1580809716894" />
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1581070970876" />
     <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1580812916452">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1580812916452" />
-    <state x="194" y="261" key="FileChooserDialogImpl" timestamp="1580814057533">
+    <state x="194" y="261" key="FileChooserDialogImpl" timestamp="1581071122215">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="194" y="261" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1580814057533" />
+    <state x="194" y="261" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1581071122215" />
     <state x="277" y="0" key="SettingsEditor" timestamp="1581070839407">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
