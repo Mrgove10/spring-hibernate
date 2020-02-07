@@ -15,25 +15,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f1c02f3-da2b-44af-b0f5-84d9bc678d3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/epsi/b3/simplewebapp/persistence/SessionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/epsi/b3/simplewebapp/persistence/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/epsi/b3/simplewebapp/products/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/epsi/b3/simplewebapp/products/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/epsi/b3/simplewebapp/users/UserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/epsi/b3/simplewebapp/users/UserAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +54,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -83,7 +82,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25172412" />
     <property name="settings.editor.selected.configurable" value="profiler.jvm" />
@@ -100,7 +99,9 @@
       <option name="presentableId" value="Default" />
       <updated>1580800568718</updated>
       <workItem from="1580800574202" duration="741000" />
-      <workItem from="1580801899882" duration="5964000" />
+      <workItem from="1580801899882" duration="9553000" />
+      <workItem from="1580905333577" duration="273000" />
+      <workItem from="1581059628842" duration="2696000" />
     </task>
     <servers />
   </component>
@@ -132,17 +133,25 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1580809716894" />
-    <state x="194" y="261" key="FileChooserDialogImpl" timestamp="1580809277319">
+    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1580812916452">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="194" y="261" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1580809277319" />
-    <state x="277" y="0" key="SettingsEditor" timestamp="1580808951469">
+    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1580812916452" />
+    <state x="194" y="261" key="FileChooserDialogImpl" timestamp="1580814057533">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="277" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1580808951469" />
+    <state x="194" y="261" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1580814057533" />
+    <state x="277" y="0" key="SettingsEditor" timestamp="1581070839407">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1581070839407" />
     <state x="462" y="148" width="611" height="538" key="find.popup" timestamp="1580808463915">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="462" y="148" width="611" height="538" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1580808463915" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1580813391066">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1580813391066" />
   </component>
 </project>

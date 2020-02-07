@@ -1,0 +1,3 @@
+<!-- Names the annotated entity class -->
+<mapping class="org.epsi.b3.simplewebapp.products.Product"/>
+<mapping class="org.epsi.b3.simplewebapp.users.UserAccount"/>
